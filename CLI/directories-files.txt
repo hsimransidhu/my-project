@@ -1,0 +1,28 @@
+Tools and autoimation 
+
+Ceating directories and files 
+
+>mkdir | create an new direcoruy
+> mkdir test 
+> mkdir test / my-tests
+> mkdir one two three 
+> rmdir or rm -d            | delete an empty directory
+> rm _-r <dir>              | remove a non-empty directory(remove all files recursively)
+> touch <file>              |  create a new file 
+> echo 'content' <file>     | redirect the output to a file (overwruite the content)
+> echo 'content' >> <file>  | redirect the output to end of a file (append)
+> mv <old_name> <new_name>  | remove a file
+
+> cat <file>                | display the content of a file
+>tac <file>                 | display the content of file in reverse order 
+
+>tail -r <file >            | display the content of file in reverse order 
+> less <file>               | brose through a text fiile
+
+> head <file>               | display the first 10 lines of  a file 
+> head -n <file>            | display the first n lines of a file
+> tail -n <file>            | display the last n lines of a file
+ 
+
+>wc<file>                    | list number of lines, words and characters
+> sort <file>                | sort file numerically

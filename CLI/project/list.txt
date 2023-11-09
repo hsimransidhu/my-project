@@ -1,0 +1,10 @@
+01.Banana
+02.Apple
+03.Grapes
+04.Strawberry
+05.Guava
+06.Acai
+07.Orange
+08.Maracuja
+09.Dragon fruit
+10.Abacaxi

@@ -1,0 +1,39 @@
+Pipe
+
+The pipe is a command that lets you use two or more commands such that otput of one command serves as an input to the next. 
+in short, the commands work like a pipeline
+
+Show the lines in a particular range
+> cat <file> | head -n |tail -name
+
+Read a file, sort the data and print unique elements
+> cat <file> |sort |uniq
+
+Count the numbe rof lines with content
+cat <file> | grep 'content' | wc (-l / -w / -c)
+
+raed content from multiplre files 
+> cat *.<format> 
+>cat <name>.*
+
+ find a file in a curent directory  or sub directory
+ > find . -type f -name 'index.js'
+
+ find and remove  one or more files 
+ > find. -type f -name 'virus.*' -print -delete
+
+ find a content in a file 
+ > grep <content> file 
+
+ Find and delete multiple files recursively 
+ > find -type -f -name 'name.<format> -print -delete
+
+ Find and delete multiple directories recursively
+ > find -type d -empty -print -delete
+
+ count the occurences odf s word in afoile. the =o option tells grep to output eafch
+ match ina  unique line. then wc -l tells wc to count the number of lines 
+ > grep -o -i <word> <file>  | wc  -l 
+
+ 
+

@@ -1,0 +1,35 @@
+ Tools and autoimation
+
+ Intro to CLI and commands
+
+ CLI stands for Command Line Interface. Its a program that allows user to type text commands instructing the computer 
+ to do specific tasks. CLI is basically a 'swiss knife army' of features you can use on daily basis.
+
+ Windows: Power Shell / Windows Terminal / git Bash
+ Mac / Linux (Unix-based OS) : Terminal
+
+    Listing Files and Directories 
+    > ls | list all files and directories in the current working directory
+    > ls -a | list all files and directories + hidden files
+    > ls -l | list all files and directories + detailed info  about their type, 
+             permissions , owner etc.
+      >ls -R  | list all files and directories + files in sub-directories
+
+      Permissions : what do those letters mean ?
+      d : directory
+      rwx: read, write,execute
+      r-x: read and execute(group)
+
+      Changing directories
+
+> pwd   | print the curent working directory
+> cd <dir> | change the directory to the specified directory
+> cd .. | return to the previous directory(move one level up)
+>  cd / | go to the root directory
+
+System info
+> uname -a  | print system name and kernel
+> date | print current date and time
+> cal  | print the calendar
+> whoami | print username
+> man | manual

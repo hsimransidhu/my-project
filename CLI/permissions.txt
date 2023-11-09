@@ -1,0 +1,20 @@
+Changing Permissions
+
+To change file and directory permisiions, use the commnd 'chmod'
+(change mode)/. The owner of a file can change permisiions for 
+user(u) , group(g) , or others (o) by adding (+) or subtracting(-)
+the read, write and execute permissions
+
+two ways to change permisiions(symbolic and absolute)
+
+Symbolic method 
+Access Class  Operator               Access type 
+u (user)       +(add)                 r(read)
+g (group)      -(remove)              w(write)
+o (other)      = (set exact access)   x(execute)
+a (all)     
+
+Absolute form 
+read 4
+Write 2
+Execute 1
